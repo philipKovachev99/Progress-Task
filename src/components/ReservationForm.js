@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Form, Field, FormElement } from "@progress/kendo-react-form";
-import { Error } from "@progress/kendo-react-labels";
-import { Input } from "@progress/kendo-react-inputs";
+import { Form, Field, FormElement } from '@progress/kendo-react-form';
+import { Error } from '@progress/kendo-react-labels';
+import { Input } from '@progress/kendo-react-inputs';
 const emailRegex = new RegExp(/\S+@\S+\.\S+/);
 
 const emailValidator = (value) =>
