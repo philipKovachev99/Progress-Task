@@ -25,6 +25,7 @@ import flightData from '../data/flightData.json';
       reorderable={true}
       total={flightData.length}
       {...dataState}
+      className="data-grid"
     >
      <GridColumn field='code' title='Code'/>
      <GridColumn field='lat' title='Lat'/>
