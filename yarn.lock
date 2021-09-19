@@ -1537,6 +1537,14 @@
     "@progress/kendo-react-popup" "4.9.0"
     prop-types "^15.6.0"
 
+"@progress/kendo-react-form@^4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-form/-/kendo-react-form-4.9.0.tgz#25ea033f055f91e868347a2ebd6c096976672016"
+  integrity sha512-iL5Eu7AaGsgwvcDlYdbidZhUh9dcLcqP+C+ZnL1iffpMNvnIBZYTmljEgoiuTfgY57wkHX7gCSJWPdSoOtQWEQ==
+  dependencies:
+    "@progress/kendo-react-common" "4.9.0"
+    prop-types "^15.6.0"
+
 "@progress/kendo-react-grid@^4.9.0":
   version "4.9.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-grid/-/kendo-react-grid-4.9.0.tgz#5c2f16a7fd5da2a005d4c27836d8ff828ce96e05"
