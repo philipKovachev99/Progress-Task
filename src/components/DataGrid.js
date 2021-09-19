@@ -14,7 +14,7 @@ import flightData from '../data/flightData.json';
   }
   
     return (
-      <div className="App">
+      <div>
    <Grid
       data={result}
       filterable={true}

@@ -23,7 +23,6 @@ const ReservationForm = () => {
 
   return (
     <Form
-     className="form"
       onSubmit={handleSubmit}
       render={(formRenderProps) => (
         <FormElement
