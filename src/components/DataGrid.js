@@ -13,6 +13,20 @@ import flightData from '../data/flightData.json';
     setResult(process(flightData, event.dataState));
   }
   
+  const cellWithBackGround = (props) => {
+    const examplePrice = props.dataItem.direct_flights < 2;
+    const style = {
+      backgroundColor: examplePrice
+        ? "rgb(243, 23, 0, 0.32)"
+        : "rgb(55, 180, 0,0.32)",
+    };
+    const field = props.field || "";
+    return (
+      <td style={style}>
+        {props.dataItem[field]} 
+      </td>
+    );
+  };
     return (
       <div>
    <Grid
@@ -40,7 +54,8 @@ import flightData from '../data/flightData.json';
      <GridColumn field='runway_length' title='RL'/>
      <GridColumn field='elev' title='Elevation'/>
      <GridColumn field='icao' title='Icao'/>
-     <GridColumn field='direct_flights' title='Direct Flights'/>
+     <GridColumn field='direct_flights' title='Direct Flights'  cell={cellWithBackGround} />
+
      <GridColumn field='carriers' title='Carriers'/>
     </Grid>
       </div>
